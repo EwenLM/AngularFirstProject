@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { RacesComponent } from './races/races.component';
+import { CarateristiquesComponent } from './carateristiques/carateristiques.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RacesComponent],
+  imports: [RacesComponent, CarateristiquesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
