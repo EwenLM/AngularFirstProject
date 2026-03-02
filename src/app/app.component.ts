@@ -1,12 +1,15 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RacesComponent } from './races/races.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RacesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'premierprojet';
+	title = 'Course de Chevaux';
+	numberOfUsers = 146;
+	public name: string ='Olivier';
+
 }
